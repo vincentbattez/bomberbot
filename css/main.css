@@ -1,0 +1,384 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+.alert{
+    padding-top: 30px!important;
+}
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+  GENERAL
+  ========================================================================== */
+
+.w100p {
+    width: 100%!important;
+}
+
+.mb30 {
+    margin-bottom: 30px!important;
+}
+
+.debugFooter{
+    padding-bottom:87px;
+}
+
+
+/*--------------------------------------------------------NAV*/
+
+button:active,
+button:focus {
+    outline: none!important;
+    box-shadow: none!important;
+    color: white!important;
+}
+
+h2 {
+    font-weight: bold!important;
+    text-align: center;
+}
+
+#myNavbar * {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9b9b9b;
+    text-align: center;
+}
+
+#myNavbar .persoNav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/*--------------------------------------------------------NAV2*/
+
+#menuTelechargement {
+    padding: 15px 15px 0 15px;
+    border: none;
+    background: none!important;
+    color: #FF8600;
+}
+.btn_deco{
+    width: 100%;
+    background: #6f6f6f;
+    border-top: 1px solid #999!important;
+    color: white!important;
+}
+.btn_deco:hover{
+    background: #FF8600;
+    border-top: 1px solid #ffbe00!important;
+}
+#menu_parametres{
+    padding-top: 7px;
+    padding-bottom: 10px!important;
+}
+
+
+/*-------------------------------------phone*/
+
+@media (max-width: 425px) {
+    #myNavbar .persoNav:first-child {
+        border-bottom: 1px solid #333;
+    }
+    #myNavbar ul .connexionInscrition {
+        display: inline-block!important;
+    }
+}
+
+#logoNavXS {
+    width: 200px;
+    display: inline-block!important;
+    padding-top: 5px;
+    margin-left: 10vw;
+}
+
+#myNavbar img {
+    width: 280px;
+    display: inline-block;
+}
+
+#myNavbar #logo {
+    padding-bottom: 0px!important;
+    padding-top: 0px!important;
+    padding-left: 40px;
+    margin: 0 auto;
+}
+
+#myNavbar #dl,
+#myNavbar .glyphicon-download-alt {
+    color: #FF8600!important;
+}
+
+#myNavbar a:hover,
+#myNavbar a:hover > .glyphicon {
+    color: white!important;
+}
+
+@media (max-width: 768px) {
+    /*tablet*/
+    #myNavbar img {
+        padding-top: 10px;
+        width: 150px;
+    }
+    #myNavbar * {
+        font-size: 12px
+    }
+    #myNavbar #logo {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+    #myNavbar a {
+        padding-bottom: 0px;
+    }
+}
+
+
+/*--------------------------------------------------------FOOTER*/
+#footerBG {
+    background-color: #222;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display : table-row;
+    
+}
+
+.footer p {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #646464;
+}
+
+.footer ul {
+    padding-left: 0px!important;
+}
+
+.footer ul li {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.footer ul li a {
+    color: #a0a0a0!important;
+}
+
+.footer ul li:first-child {
+    padding-right: 10px;
+    border-right: 1px solid #a0a0a0;
+}
+
+.footer ul li:last-child {
+    padding-left: 10px;
+    border-left: 1px solid #a0a0a0;
+}
+
+.footer ul li:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ==========================================================================
+  INDEX.PHP
+  ========================================================================== */
+
+
+/*--------------------------------------------------------SLIDER*/
+
+.btn-primary {
+    font-size: 22px !important;
+}
+
+#resumeGame {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+/*-------------------------------------phone*/
+
+@media (max-width: 425px) {
+    .btnSlider {
+        padding: 10px 20px 10px 20px!important;
+        font-size: 16px!important;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+    }
+}
+
+
+/*--------------------------------------------------------DEVICE*/
+
+#device {
+    background: #efefef;
+    margin-top: 50px;
+}
+
+#device h2 {
+    margin-bottom: 50px;
+}
+
+.deviceIcon {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.deviceDiv {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+a {
+    color: #FF8600;
+}
+
+.deviceDiv ul {
+    padding-left: 0;
+}
+
+
+/*-------------------------------------tablet*/
+
+@media (max-width: 768px) {
+    .deviceDiv .btn-primary {
+        padding: 10px 20px 10px 20px;
+    }
+    .deviceDiv .btn-primary {
+        font-size: 18px!important;
+    }
+}
+
+
+/*-------------------------------------phone*/
+
+@media (max-width: 425px) {
+    .deviceDiv .btn-primary {
+        padding: 5px 10px 5px 10px;
+        margin: 0 auto;
+    }
+    .deviceDiv .btn-primary {
+        font-size: 14px!important;
+    }
+    .deviceIcon {
+        height: 20vw;
+    }
+}
+
+
+/* ==========================================================================
+   CLASSEMENT.PHP
+   ========================================================================== */
+.table > tbody > tr:first-child{
+    color: #FF8600;
+    font-weight: bold;
+}
+.tabTitre{
+    border-right: 1px solid #ddd;
+}
+.tabTitre:first-child{
+    border-left: 1px solid #ddd;
+}
+
+
+/* ==========================================================================
+   CONNEXION.PHP
+   ========================================================================== */
+
+#incription {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* ==========================================================================
+   paramtres.PHP
+   ========================================================================== */
+#mdpPara{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+#btn_mdp_parametre{
+    display: block;
+    margin: 0 auto ;
+    width: 100%;
+}
+
+/*-------------------------------------tablet*/
+@media (max-width: 768px) {
+    #div_parametre h1{
+        font-size: 28px;
+    }
+}
+/*-------------------------------------phone*/
+@media (max-width: 425px) {
+    #div_parametre h1{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #mdpPara{
+        margin-bottom: 10px;
+    }
+}
+/* ==========================================================================
+   info.PHP
+   ========================================================================== */
+#btn_info_accepter{
+    font-size: 17px!important;
+}
